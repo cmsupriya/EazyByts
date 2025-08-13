@@ -1,8 +1,5 @@
-# EazyByts
-# Chat-room Application
-# Chat App (Frontend + Backend)
-Chat-room Application a full-stack chat application featuring a Java-based Spring Boot backend and a lightweight, responsive frontend. It supports real-time messaging using WebSockets, secure user authentication, and simple room-based or private messaging functionality.
-
+# EazyByts – Chat-room Application
+A full-stack chat application with a Java-based Spring Boot backend and a lightweight, responsive frontend. It supports real-time messaging via WebSockets, secure user authentication with JWT, and offers both room-based and private messaging features. Designed for simplicity, speed, and ease of deployment.
 # Features
 Backend (Spring Boot)
 
