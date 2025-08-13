@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: ${JDBC_URL:jdbc:mysql://localhost:3306/chatdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${JDBC_USER:root}
+    password: ${JDBC_PASS:P@55w0rd}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change_me_to_a_long_random_value_at_least_32_bytes}
+    expiration-ms: ${JWT_EXP_MS:3600000}
