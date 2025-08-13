@@ -36,7 +36,7 @@ buildNumber.properties
 
 # === Gradle ===
 .gradle
-build/
+**/build/
 !gradle/wrapper/gradle-wrapper.jar
 
 # === Eclipse ===
@@ -45,4 +45,24 @@ build/
 .settings/
 bin/
 
-# === Inte
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === NetBeans ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# === VS Code ===
+.vscode/
+
+# === Frontend build outputs ===
+**/dist/
+**/node_modules/
